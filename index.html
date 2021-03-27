@@ -106,6 +106,7 @@
         transition: left 0.5s;
       }
       .location-selector__icon {
+        
       }
       .location-selector__trigger {
         background-color: #06f;
@@ -223,25 +224,25 @@
 
       @media (min-width: 1201px) {
         .bg-images-slider-3 {
-          background-image: url("https://www.uberem.com.ua/wp-content/uploads/2018/12/uberem-kryglosutochno.jpg");
+          background-image: url("img/workTime.jpg");
         }
       }
 
       @media (min-width: 768px) and (max-width: 1200px) {
         .bg-images-slider-3 {
-          background-image: url("https://www.uberem.com.ua/wp-content/uploads/2018/12/uberem-kryglosutochno-1024x682.jpg");
+          background-image: url("img/workTime.jpg");
         }
       }
 
       @media (min-width: 351px) and (max-width: 767px) {
         .bg-images-slider-3 {
-          background-image: url("https://www.uberem.com.ua/wp-content/uploads/2018/12/uberem-kryglosutochno-768x511.jpg");
+          background-image: url("img/workTime.jpg");
         }
       }
 
       @media (max-width: 350px) {
         .bg-images-slider-3 {
-          background-image: url("https://www.uberem.com.ua/wp-content/uploads/2018/12/uberem-kryglosutochno-300x200.jpg");
+          background-image: url("img/workTime.jpg");
         }
       }
 
@@ -896,12 +897,10 @@
             <li><a href="en/index.html" hreflang="en" title="en">Eng</a></li>
           </ul>
           <a href="index.html" class="main-logo" title="Перейти">
-            <span class="main-logo-text">
-              <span>Сад<br>Сервис</span>
-            </span>
-            <svg viewBox="0 0 39 40">
-              <use xlink:href="#main-logo"></use>
-            </svg>
+            <!-- <span class="main-logo-text"> -->
+            <span style="transform: rotate(90deg);line-height: normal;font-size: 14px;color: #2b2b2b;display: block;margin-right: -15px;">Cервис</span>
+            <span style="transform: rotate(90deg);line-height: normal;font-size: 14px;color: #2b2b2b;display: block;margin-right: 15px;">Сад</span>
+            <img src="img/logo.png" height="40" width="40" style="transform: rotate(90deg);"/>
           </a>
         </div>
       </div>
@@ -916,11 +915,11 @@
             </svg>
             <div class="mobile-menu-info">
               <a
-                href="tel:+380674016977"
+                href="tel:+79178968350"
                 class="main-phone pull-right binct-phone-number-1"
                 ><svg viewBox="0 0 15 25">
                   <use xlink:href="#phone-icon"></use></svg
-                ><span>+380 67 401 69 77</span></a
+                ><span>+7 917 896 83 50</span></a
               >
             </div>
             <ul id="menu-osnovnoe-menju-ru" class="nav">
@@ -1192,8 +1191,8 @@
                     <div class="slide-content-text-wrap">
                       <div class="slide-content-text">
                         <p>
-                          Мы всегда спрашиваем отзыв об уборке, просим оценить
-                          работу клинера от 1 до 5. Чуть что не так – приедем и
+                          Мы всегда спрашиваем отзыв о работе, просим оценить
+                          работу команды от 1 до 5. Чуть что не так – приедем и
                           все исправим. Мы не хотим зарабатывать на недовольных
                           клиентах. 
                         </p>
@@ -1875,63 +1874,40 @@
           </div>
         </div>
       </section>
-      <!-- <section class="price-section">
+      <section class="price-section">
         <div class="container">
           <div class="row price-title-row">
-            <div class="col-lg-6">
+            <div class="col-lg-6" style="width: 100%;">
               <div class="section-title-wrap">
-                <h2 class="section-title reveal-title">
-                  <big>Хорошо. </big>А что насчет цен?
+                <h2 class="section-title reveal-title" style="width: 100%;">
+                  <big>Встречайте! </big>
+                  <br>
+                  Сезонные абонементы
                 </h2>
               </div>
             </div>
             <div class="col-lg-6"></div>
           </div>
-          <div class="row price-row">
-            <div class="col-sm-3 col-xs-6 animate-block">
+          <div class="row price-row" style="display: flex;justify-content: center;">
+            
+              <div class="col-sm-3 col-xs-6 animate-block" style="width: auto; left:auto">
               <div class="price-card">
-                <div class="price-room">1-комнатная</div>
-                <div class="price-count">от 450 грн</div>
-                <div class="price-time">
-                  <svg viewBox="0 0 14 14">
-                    <use xlink:href="#clock-icon"></use></svg
-                  >~ 2 часа
-                </div>
+                <div class="price-room">Комплексный уход за садом</div>
+                <div class="price-count">от 1500 руб.</div>
+                <div class="price-room" style="line-height: normal;font-size: 30px;color: #dadada;">~ 100 кв. м.</div>
               </div>
             </div>
-            <div class="col-sm-3 col-xs-6 animate-block">
+
+            <div class="col-sm-3 col-xs-6 animate-block" style="width: auto;right: auto;">
               <div class="price-card">
-                <div class="price-room">2-комнатная</div>
-                <div class="price-count">от 600 грн</div>
-                <div class="price-time">
-                  <svg viewBox="0 0 14 14">
-                    <use xlink:href="#clock-icon"></use></svg
-                  >~ 3 часа
-                </div>
+                <div class="price-room">Комплексный уход за садом</div>
+                <div class="price-count">от 1500 руб.</div>
+                <div class="price-room" style="line-height: normal;font-size: 30px;color: #dadada;">~ 100 кв. м.</div>
               </div>
             </div>
-            <div class="col-sm-3 col-xs-6 animate-block">
-              <div class="price-card">
-                <div class="price-room">3-комнатная</div>
-                <div class="price-count">от 725 грн</div>
-                <div class="price-time">
-                  <svg viewBox="0 0 14 14">
-                    <use xlink:href="#clock-icon"></use></svg
-                  >~ 5 часов
-                </div>
-              </div>
+
             </div>
-            <div class="col-sm-3 col-xs-6 animate-block">
-              <div class="price-card">
-                <div class="price-room">4-комнатная</div>
-                <div class="price-count">от 900 грн</div>
-                <div class="price-time">
-                  <svg viewBox="0 0 14 14">
-                    <use xlink:href="#clock-icon"></use></svg
-                  >~ 6 часов
-                </div>
-              </div>
-            </div>
+
           </div>
           <div class="text-center animate-block">
             <a
@@ -1939,15 +1915,10 @@
               href="ceny-na-uborku-kvartiry-v-kieve/index.html"
               title="Перейти"
               >Все цены</a
-            ><a
-              class="btn"
-              href="skidki-na-uborku-kvartir-v-kieve/index.html"
-              title="Перейти"
-              >Как получить скидку?</a
             >
           </div>
         </div>
-      </section> -->
+      </section>
       <div style="padding-left: 15px; padding-right: 15px"></div>
       <!-- <section class="subscription-section">
         <div
@@ -2059,7 +2030,7 @@
               <div class="article-card">
                 <div
                   class="article-img bg-images"
-                  data-lazy-bg="https://www.uberem.com.ua/wp-content/uploads/2018/10/mg_3370-455x350.jpg"
+                  data-lazy-bg="img/landscapeDesign.jpg"
                 ></div>
                 <div class="article-content">
                   <h3 class="article-title">Ландшафтное проектирование</h3>
@@ -2084,7 +2055,7 @@
               <div class="article-card">
                 <div
                   class="article-img bg-images"
-                  data-lazy-bg="https://www.uberem.com.ua/wp-content/uploads/2019/02/mg_3714-455x350.jpg"
+                  data-lazy-bg="img/landscaping.jpg"
                 ></div>
                 <div class="article-content">
                   <h3 class="article-title">Благоустройство и озеленение</h3>
@@ -2105,7 +2076,7 @@
               <div class="article-card">
                 <div
                   class="article-img bg-images"
-                  data-lazy-bg="https://www.uberem.com.ua/wp-content/uploads/2019/01/dsc06448-1-1-455x350.jpg"
+                  data-lazy-bg="img/gardenCare.jpg"
                 ></div>
                 <div class="article-content">
                   <h3 class="article-title">Уход за садом</h3>
@@ -2347,7 +2318,7 @@
                 <big>САДСЕРВИС</big>
               </h3>
               <p>
-                Многим женщинам известна ситуация, когда хочется наладить красоту в саду, а времени на это совсем нет. В таких ситуациях на помощь
+                Многим известна ситуация, когда хочется наладить красоту в саду, а времени на это совсем нет. В таких ситуациях на помощь
                 придет наша компания.
               </p>
               <p>
@@ -2362,7 +2333,7 @@
               </p>
               <h2>Цены на ландшафтные услуги:</h2>
               <div class="table-responsive">
-                <table style="max-width: 100%; height: 592px">
+                <!-- <table style="max-width: 100%; height: 592px">
                   <tbody>
                     <tr style="height: 21px">
                       <td style="width: 369px; height: 21px">
@@ -2514,7 +2485,10 @@
                       <td style="width: 222px; height: 21px">110 грн</td>
                     </tr>
                   </tbody>
-                </table>
+                </table> -->
+                <img src="img/teble1.JPG"/>
+                <img src="img/table2.JPG"/>
+                <img src="img/table3.JPG"/>
               </div>
               <p>
                 <span style="font-size: 18pt"
@@ -2526,150 +2500,13 @@
                 выделяют:
               </p>
               <ul>
-                <li>площадь и количество комнат;</li>
-                <li>уровень загрязнения помещения;</li>
-                <li>арсенал используемой для уборки химии;</li>
-                <li>
-                  метод уборки в квартире (одна уборщица или бригада клинеров).
-                </li>
+                <li>площадь;</li>
+                <li>уровень загрязнения территории;</li>
+                <li>арсенал используемой для работ на территории;</li>
               </ul>
               <p>
                 Стоимость некоторых видов работ не входит в базовый тариф,
-                поскольку они не выполняются регулярно. За отдельную плату
-                уборщики клинингового сервиса «УБЕРЁМ» могут:
-              </p>
-              <ul>
-                <li>помыть окна;</li>
-                <li>погладить белье;</li>
-                <li>почистить микроволновую печь и духовку;</li>
-                <li>убрать на балконе;</li>
-                <li>помыть холодильник и т.д.</li>
-              </ul>
-              <p>
-                Чтобы рассчитать, сколько стоит уборка вашей квартиры или дома,
-                воспользуйтесь нашим
-                <a href="kalkuljator-uberem.1.html">калькулятором</a>.
-              </p>
-              <h2>Виды клининговых услуг</h2>
-              <p>
-                Наша компания предоставляет полный спектр услуг в сфере клининга
-                в Киеве и Киевской области. Мы предлагаем разные виды уборки:
-              </p>
-              <p>
-                <span style="font-size: 14pt"
-                  ><strong>Базовая уборка</strong></span
-                >
-              </p>
-              <p>
-                Удаляем сложные загрязнения, пыль со всех доступных поверхностей
-                (с использованием стремянки), отмываем жировой налет в кухне,
-                полируем сантехнику, пылесосим.
-              </p>
-              <p>
-                <strong
-                  ><span style="font-size: 14pt"
-                    >Поддерживающая уборка</span
-                  ></strong
-                >
-              </p>
-              <p>
-                Меняем постельное белье, складываем личные вещи аккуратной
-                стопкой, удаляем пыль с поверхностей на уровне человеческого
-                роста, пылесосим, устраняем водный налет со смесителей,
-                протираем от пыли технику.
-              </p>
-              <p>
-                <strong
-                  ><span style="font-size: 14pt"
-                    >Генеральная уборка</span
-                  ></strong
-                >
-              </p>
-              <p>
-                В зависимости от сложности работ наша фирма отправит к вам
-                уборщицу или бригаду клинеров с полным арсеналом
-                профессиональных инструментов (супермощная эко-химия «KIEHL»
-                (Германия), моющие пылесосы, парогенераторы и пр.)
-              </p>
-              <p>
-                Клинеры уберут дом и отмоют все поверхности от потолка до пола.
-                Они наведут порядок внутри шкафов, удалят стойкие загрязнения,
-                очистят сантехнику от известкового налета, продезинфицируют
-                санузел и т.д.
-              </p>
-              <p>
-                <strong
-                  ><span style="font-size: 14pt"
-                    >Уборка после ремонта</span
-                  ></strong
-                >
-              </p>
-              <p>
-                Наш клининг сервис поможет быстро подготовить жилье к переезду
-                после ремонта. Мы приедем с профессиональными поломоечными
-                машинами, парогенераторами, бытовой химией и прочими
-                инструментами.
-              </p>
-              <p>
-                Наши клинеры соберут и вынесут строительный мусор, удалят пыль
-                со всех поверхностей, отмоют засохший клей, краску, шпаклевку и
-                прочие сильные загрязнения.
-              </p>
-              <p>
-                <strong><span style="font-size: 14pt">Мойка окон</span></strong>
-              </p>
-              <p>
-                Мы вымоем окна изнутри и снаружи, используя для этих целей
-                длинный склиз и моющие средства. Мы также моем окна после
-                ремонта и применяем для этих целей профессиональное
-                оборудование.
-              </p>
-              <p>
-                <span style="font-size: 14pt"
-                  ><strong>Регулярная уборка по подписке</strong></span
-                >
-              </p>
-              <p>
-                У нас можно купить подписку на любое количество уборок с 3-мя
-                дополнительными сервисами в подарок. Это поможет сэкономить на
-                стоимости клининговых услуг около 25%.
-              </p>
-              <p>
-                <strong
-                  ><span style="font-size: 14pt"
-                    >Дополнительные сервисы</span
-                  ></strong
-                >
-              </p>
-              <p>
-                Наша клининговая компания выполняет ряд дополнительных работ. В
-                эту категорию входит мойка окон, кухонной бытовой техники,
-                уборка на балконе, глажка белья и многое другое.
-              </p>
-              <p>
-                <span style="font-size: 18pt"
-                  ><strong>Где мы находимся?</strong></span
-                >
-              </p>
-              <p>
-                Офис нашей компании находится по адресу
-                <a
-                  href="https://www.google.com/maps/place/Uberem/@50.461096,30.434529,16z/data=!4m5!3m4!1s0x0:0x4502bc7546ef5a36!8m2!3d50.461096!4d30.434529?hl=ru"
-                  target="_blank"
-                  rel="noopener"
-                  >г. Киев, ул. Дегтяревская, 49</a
-                >. 
-              </p>
-              <p>
-                Наши клинеры также работают в Киевской области. Мы принимаем
-                заявки круглосуточно 24/7. Для получения дополнительных
-                консультаций свяжитесь с нами по номеру
-                <a
-                  class="binct-phone-number-1"
-                  href="tel:+380674016977"
-                  rel="nofollow"
-                  >+380 67 401 69 77</a
-                >.
+                для уточнения позвоните по номеру +7 917 896 83 50.
               </p>
               <p>
                 <strong
@@ -2687,21 +2524,14 @@
                 </li>
                 <li>
                   Мы следим за качеством работы персонала. В случае если клиент
-                  недоволен качеством услуг, мы в течение 3-х дней проводим
-                  повторную уборку, дарим скидку или полностью возвращаем
+                  недоволен качеством услуг, мы немедленно исправляем работу,
+                  дарим скидку или полностью возвращаем
                   деньги.
-                </li>
-                <li>
-                  Мы используем только профессиональную химию. Продукция
-                  немецкого бренда «KIEHL» обладает высокой моющей и чистящей
-                  способностью. Она полностью безопасна для человека, поэтому
-                  может использоваться даже в домах, где живут аллергики и
-                  маленькие дети.
                 </li>
                 <li>
                   Мы за честные цены. Стоимость наших услуг формируется по
                   абсолютно прозрачной схеме. Клиенты нашей компании также могут
-                  сэкономить, оформив подписку на уборку.
+                  сэкономить, пользуясь нашим сервисом на регулярной основе.
                 </li>
               </ol>
               <p>
@@ -2712,411 +2542,15 @@
                 >
               </p>
               <p>
-                В нашей клининг компании работают только проверенные клинеры.
-                Перед допуском к обучению и стажировке будущие уборщицы «УБЕРЁМ»
-                проходят тщательную проверку нашей службой безопасности. Мы
-                работаем официально в рамках публичной оферты.
+                В нашей клининг компании работают только проверенные сотрудники.
+                Перед допуском к обучению и стажировке будущие сотрудника «СадСервис»
+                проходят тщательную проверку. Мы работаем официально в рамках публичной оферты.
               </p>
             </div>
           </div>
         </div>
       </section>
-      <div class="modal-overlay" id="modal-2">
-        <div class="modal">
-          <div class="modal-content">
-            <button class="modal-close" type="button">
-              <svg viewBox="0 0 23 23">
-                <path d="M2 21L20.8651 2M2.13486 2.00001L21 21"></path>
-              </svg>
-            </button>
-            <div
-              role="form"
-              class="wpcf7"
-              id="wpcf7-f369-o1"
-              lang="ru-RU"
-              dir="ltr"
-            >
-              <div class="screen-reader-response"></div>
-              <form
-                action="index.html#wpcf7-f369-o1"
-                method="post"
-                class="wpcf7-form"
-                novalidate="novalidate"
-              >
-                <div style="display: none">
-                  <input type="hidden" name="_wpcf7" value="369" />
-                  <input type="hidden" name="_wpcf7_version" value="5.1.4" />
-                  <input type="hidden" name="_wpcf7_locale" value="ru_RU" />
-                  <input
-                    type="hidden"
-                    name="_wpcf7_unit_tag"
-                    value="wpcf7-f369-o1"
-                  />
-                  <input type="hidden" name="_wpcf7_container_post" value="0" />
-                </div>
-                <input
-                  type="hidden"
-                  name="redirect_to_page"
-                  value="https://www.uberem.com.ua/spasibo/"
-                />
-                <h4 class="modal-title">Оставьте заявку</h4>
-                <div class="modal-sub-title">
-                  В период эпидемии услуги кварцевания и дезифекции бесплатны
-                </div>
-                <div class="form-wrap">
-                  <div class="form-element">
-                    <span class="wpcf7-form-control-wrap your-search">
-                      <select
-                        name="your-region"
-                        class="wpcf7-form-control wpcf7-select form-element-select has-value"
-                      >
-                        <option value="Киев" selected>Киев</option>
-                        <option value="Днепр">Днепр</option>
-                      </select>
-                      <i class="form-element-bar"></i>
-                      <label class="form-element-label" for="form-select"
-                        >Укажите ваш город</label
-                      >
-                      <svg class="down-icon" viewBox="0 0 290 163">
-                        <use xlink:href="#down-icon"></use>
-                      </svg>
-                    </span>
-                  </div>
-                  <div class="form-element">
-                    <span class="wpcf7-form-control-wrap your-name">
-                      <span class="wpcf7-form-control-wrap your-name"
-                        ><input
-                          type="text"
-                          name="your-name"
-                          value=""
-                          size="40"
-                          class="wpcf7-form-control wpcf7-text form-element-field"
-                          aria-invalid="false"
-                          placeholder="Ваше имя"
-                      /></span>
-                      <i class="form-element-bar"></i>
-                      <label class="form-element-label" for="your-name"
-                        >Ваше имя</label
-                      >
-                    </span>
-                  </div>
-                  <div class="form-element">
-                    <span class="wpcf7-form-control-wrap your-email">
-                      <span class="wpcf7-form-control-wrap your-email"
-                        ><input
-                          type="email"
-                          name="your-email"
-                          value=""
-                          size="40"
-                          class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email form-element-field"
-                          aria-invalid="false"
-                          placeholder="Ваш email"
-                      /></span>
-                      <i class="form-element-bar"></i>
-                      <label class="form-element-label" for="your-email"
-                        >Ваш email</label
-                      >
-                    </span>
-                  </div>
-                  <div class="form-element">
-                    <span class="wpcf7-form-control-wrap phone">
-                      <span class="wpcf7-form-control-wrap phone"
-                        ><input
-                          type="tel"
-                          name="phone"
-                          value=""
-                          size="40"
-                          class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-element-field phone-mask"
-                          aria-required="true"
-                          aria-invalid="false"
-                          placeholder="+38 (___) ___-__-__"
-                      /></span>
-                      <i class="form-element-bar"></i>
-                      <label class="form-element-label" for="phone"
-                        >Номер телефона</label
-                      >
-                    </span>
-                  </div>
-                  <input
-                    type="hidden"
-                    name="utm_source"
-                    value=""
-                    class="wpcf7-form-control wpcf7-hidden"
-                  />
-                  <input
-                    type="hidden"
-                    name="utm_medium"
-                    value=""
-                    class="wpcf7-form-control wpcf7-hidden"
-                  />
-                  <input
-                    type="hidden"
-                    name="utm_campaign"
-                    value=""
-                    class="wpcf7-form-control wpcf7-hidden"
-                  />
-                  <input
-                    type="hidden"
-                    name="utm_content"
-                    value=""
-                    class="wpcf7-form-control wpcf7-hidden"
-                  />
-                  <input
-                    type="hidden"
-                    name="utm_term"
-                    value=""
-                    class="wpcf7-form-control wpcf7-hidden"
-                  />
-                  <input
-                    type="hidden"
-                    name="gclid"
-                    value=""
-                    class="wpcf7-form-control wpcf7-hidden"
-                  />
-                  <input type="hidden" name="wpcf7_slack" value="1" /><input
-                    type="hidden"
-                    name="wpcf7_telegram"
-                    value="1"
-                  /><span
-                    id="wpcf7-603e0b42e4445"
-                    class="wpcf7-form-control-wrap first-field-wrap"
-                    style="
-                      display: none !important;
-                      visibility: hidden !important;
-                    "
-                    ><label class="hp-message"
-                      >Please leave this field empty.</label
-                    ><input
-                      class="wpcf7-form-control wpcf7-text"
-                      type="text"
-                      name="first-field"
-                      value=""
-                      size="40"
-                      tabindex="-1"
-                      autocomplete="nope" /></span
-                  ><button
-                    id="submit"
-                    class="blue-btn trans-bg wpcf7-submit"
-                    ENGINE="submit"
-                  >
-                    Отправить
-                  </button>
-                </div>
-                <div class="form-mail-send">
-                  <div class="form-mail-icon">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 95 101"
-                    >
-                      <path
-                        class="form-star"
-                        d="M 7.7348643,5.4991599 A 0.49582463,0.49992363 0 0 1 7.2390397,5.9990835 0.49582463,0.49992363 0 0 1 6.743215,5.4991599 0.49582463,0.49992363 0 0 1 7.2390397,4.9992363 0.49582463,0.49992363 0 0 1 7.7348643,5.4991599 Z M 8.7265136,35.994501 A 1.9832985,1.9996945 0 0 1 6.743215,37.994196 1.9832985,1.9996945 0 0 1 4.7599165,35.994501 1.9832985,1.9996945 0 0 1 6.743215,33.994807 1.9832985,1.9996945 0 0 1 8.7265136,35.994501 Z M 92.025052,39.99389 a 1.9832985,1.9996945 0 0 1 -1.983298,1.999695 1.9832985,1.9996945 0 0 1 -1.983299,-1.999695 1.9832985,1.9996945 0 0 1 1.983299,-1.999694 1.9832985,1.9996945 0 0 1 1.983298,1.999694 z m 0.495825,-12.198136 -2.479123,2.199664 2.181628,-2.499619 -2.181628,-2.499618 2.479123,2.199664 L 95,24.996181 92.818372,27.495799 95,29.995418 Z M 3.2724426,50.892225 1.1899791,53.291858 2.8757829,50.592271 0,49.392454 l 3.0741127,0.799878 0.1983299,-3.199511 0.1983298,3.199511 3.0741128,-0.799878 -2.8757829,1.199817 1.6858038,2.699587 z M 28.063674,3.7994196 25.584551,5.9990835 27.76618,3.4994654 25.584551,0.9998473 28.063674,3.1995112 30.542797,0.9998473 28.361169,3.4994654 30.542797,5.9990835 Z M 44.425887,8.9986253 A 1.9832985,1.9996945 0 0 1 42.442589,10.99832 1.9832985,1.9996945 0 0 1 40.45929,8.9986253 1.9832985,1.9996945 0 0 1 42.442589,6.9989308 1.9832985,1.9996945 0 0 1 44.425887,8.9986253 Z M 59.300626,0.9998473 A 0.99164927,0.99984725 0 0 1 58.308977,1.9996945 0.99164927,0.99984725 0 0 1 57.317328,0.9998473 0.99164927,0.99984725 0 0 1 58.308977,0 0.99164927,0.99984725 0 0 1 59.300626,0.9998473 Z M 88.058455,13.997862 a 0.99164927,0.99984725 0 0 1 -0.991649,0.999847 0.99164927,0.99984725 0 0 1 -0.991649,-0.999847 0.99164927,0.99984725 0 0 1 0.991649,-0.999848 0.99164927,0.99984725 0 0 1 0.991649,0.999848 z m 5.949896,38.994042 a 0.99164927,0.99984725 0 0 1 -0.99165,0.999848 0.99164927,0.99984725 0 0 1 -0.991649,-0.999848 0.99164927,0.99984725 0 0 1 0.991649,-0.999847 0.99164927,0.99984725 0 0 1 0.99165,0.999847 z M 62.275574,12.498091 A 1.4874739,1.4997709 0 0 1 60.7881,13.997862 1.4874739,1.4997709 0 0 1 59.300626,12.498091 1.4874739,1.4997709 0 0 1 60.7881,10.99832 a 1.4874739,1.4997709 0 0 1 1.487474,1.499771 z m 13.88309,7.498854 a 0.99164927,0.99984725 0 0 1 -0.991649,0.999847 0.99164927,0.99984725 0 0 1 -0.99165,-0.999847 0.99164927,0.99984725 0 0 1 0.99165,-0.999847 0.99164927,0.99984725 0 0 1 0.991649,0.999847 z m -48.590814,0 a 0.99164927,0.99984725 0 0 1 -0.99165,0.999847 0.99164927,0.99984725 0 0 1 -0.991649,-0.999847 0.99164927,0.99984725 0 0 1 0.991649,-0.999847 0.99164927,0.99984725 0 0 1 0.99165,0.999847 z M 14.676409,17.997251 a 0.99164927,0.99984725 0 0 1 -0.991649,0.999847 0.99164927,0.99984725 0 0 1 -0.991649,-0.999847 0.99164927,0.99984725 0 0 1 0.991649,-0.999848 0.99164927,0.99984725 0 0 1 0.991649,0.999848 z"
-                      />
-                      <path
-                        class="form-circle"
-                        d="m 48.557556,21.012217 c 21.915449,0 39.66597,17.897265 39.66597,39.993889 C 88.223526,83.10273 70.473005,101 48.557556,101 26.642107,101 8.8915849,83.10273 8.8915849,61.006106 c 0,-22.096624 17.7505221,-39.993889 39.6659711,-39.993889 z"
-                      />
-                      <path
-                        class="form-check"
-                        d="m 31.005365,64.305604 c -1.18998,-1.499771 -3.371608,-1.89971 -4.859082,-0.699893 -1.487474,1.199817 -1.884133,3.39948 -0.694154,4.899251 l 7.734864,10.398412 c 1.289144,1.69974 3.768267,1.89971 5.255741,0.399939 L 70.473006,47.008246 c 1.388309,-1.399786 1.388309,-3.59945 0,-4.999236 -1.388309,-1.399786 -3.569938,-1.399786 -4.958247,0 L 36.360271,71.504504 Z"
-                      />
-                    </svg>
-                  </div>
-                  <span class="mail-send-message"
-                    >Спасибо за Ваше сообщение. Оно успешно отправлено.</span
-                  >
-                </div>
-                <div class="wpcf7-response-output wpcf7-display-none"></div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal-overlay" id="modal-3">
-        <div class="modal">
-          <div class="modal-content">
-            <button class="modal-close" type="button">
-              <svg viewBox="0 0 23 23">
-                <path d="M2 21L20.8651 2M2.13486 2.00001L21 21"></path>
-              </svg>
-            </button>
-            <div
-              role="form"
-              class="wpcf7"
-              id="wpcf7-f2877-o2"
-              lang="ru-RU"
-              dir="ltr"
-            >
-              <div class="screen-reader-response"></div>
-              <form
-                action="index.html#wpcf7-f2877-o2"
-                method="post"
-                class="wpcf7-form"
-                novalidate="novalidate"
-              >
-                <div style="display: none">
-                  <input type="hidden" name="_wpcf7" value="2877" />
-                  <input type="hidden" name="_wpcf7_version" value="5.1.4" />
-                  <input type="hidden" name="_wpcf7_locale" value="ru_RU" />
-                  <input
-                    type="hidden"
-                    name="_wpcf7_unit_tag"
-                    value="wpcf7-f2877-o2"
-                  />
-                  <input type="hidden" name="_wpcf7_container_post" value="0" />
-                </div>
-                <h4 class="modal-title">Оставьте заявку</h4>
-                <div class="form-wrap">
-                  <div class="form-element">
-                    <span class="wpcf7-form-control-wrap your-name">
-                      <span class="wpcf7-form-control-wrap your-name"
-                        ><input
-                          type="text"
-                          name="your-name"
-                          value=""
-                          size="40"
-                          class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-element-field"
-                          aria-required="true"
-                          aria-invalid="false"
-                          placeholder="Ваше имя"
-                      /></span>
-                      <i class="form-element-bar"></i>
-                      <label class="form-element-label" for="your-name"
-                        >Ваше имя</label
-                      >
-                    </span>
-                  </div>
-                  <div class="form-element">
-                    <span class="wpcf7-form-control-wrap phone">
-                      <span class="wpcf7-form-control-wrap phone"
-                        ><input
-                          type="tel"
-                          name="phone"
-                          value=""
-                          size="40"
-                          class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-element-field phone-mask"
-                          aria-required="true"
-                          aria-invalid="false"
-                          placeholder="+38 (___) ___-__-__"
-                      /></span>
-                      <i class="form-element-bar"></i>
-                      <label class="form-element-label" for="phone"
-                        >Номер телефона</label
-                      >
-                    </span>
-                  </div>
-                  <input
-                    type="hidden"
-                    name="utm_source"
-                    value=""
-                    class="wpcf7-form-control wpcf7-hidden"
-                  />
-                  <input
-                    type="hidden"
-                    name="utm_medium"
-                    value=""
-                    class="wpcf7-form-control wpcf7-hidden"
-                  />
-                  <input
-                    type="hidden"
-                    name="utm_campaign"
-                    value=""
-                    class="wpcf7-form-control wpcf7-hidden"
-                  />
-                  <input
-                    type="hidden"
-                    name="utm_content"
-                    value=""
-                    class="wpcf7-form-control wpcf7-hidden"
-                  />
-                  <input
-                    type="hidden"
-                    name="utm_term"
-                    value=""
-                    class="wpcf7-form-control wpcf7-hidden"
-                  />
-                  <input
-                    type="hidden"
-                    name="gclid"
-                    value=""
-                    class="wpcf7-form-control wpcf7-hidden"
-                  />
-                  <input type="hidden" name="wpcf7_slack" value="1" /><input
-                    type="hidden"
-                    name="wpcf7_telegram"
-                    value="1"
-                  /><span
-                    id="wpcf7-603e0b42e4933"
-                    class="wpcf7-form-control-wrap first-field-wrap"
-                    style="
-                      display: none !important;
-                      visibility: hidden !important;
-                    "
-                    ><label class="hp-message"
-                      >Please leave this field empty.</label
-                    ><input
-                      class="wpcf7-form-control wpcf7-text"
-                      type="text"
-                      name="first-field"
-                      value=""
-                      size="40"
-                      tabindex="-1"
-                      autocomplete="nope" /></span
-                  ><button
-                    id="submit"
-                    class="blue-btn trans-bg wpcf7-submit"
-                    ENGINE="submit"
-                  >
-                    Отправить
-                  </button>
-                </div>
-                <div class="form-mail-send">
-                  <div class="form-mail-icon">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 95 101"
-                    >
-                      <path
-                        class="form-star"
-                        d="M 7.7348643,5.4991599 A 0.49582463,0.49992363 0 0 1 7.2390397,5.9990835 0.49582463,0.49992363 0 0 1 6.743215,5.4991599 0.49582463,0.49992363 0 0 1 7.2390397,4.9992363 0.49582463,0.49992363 0 0 1 7.7348643,5.4991599 Z M 8.7265136,35.994501 A 1.9832985,1.9996945 0 0 1 6.743215,37.994196 1.9832985,1.9996945 0 0 1 4.7599165,35.994501 1.9832985,1.9996945 0 0 1 6.743215,33.994807 1.9832985,1.9996945 0 0 1 8.7265136,35.994501 Z M 92.025052,39.99389 a 1.9832985,1.9996945 0 0 1 -1.983298,1.999695 1.9832985,1.9996945 0 0 1 -1.983299,-1.999695 1.9832985,1.9996945 0 0 1 1.983299,-1.999694 1.9832985,1.9996945 0 0 1 1.983298,1.999694 z m 0.495825,-12.198136 -2.479123,2.199664 2.181628,-2.499619 -2.181628,-2.499618 2.479123,2.199664 L 95,24.996181 92.818372,27.495799 95,29.995418 Z M 3.2724426,50.892225 1.1899791,53.291858 2.8757829,50.592271 0,49.392454 l 3.0741127,0.799878 0.1983299,-3.199511 0.1983298,3.199511 3.0741128,-0.799878 -2.8757829,1.199817 1.6858038,2.699587 z M 28.063674,3.7994196 25.584551,5.9990835 27.76618,3.4994654 25.584551,0.9998473 28.063674,3.1995112 30.542797,0.9998473 28.361169,3.4994654 30.542797,5.9990835 Z M 44.425887,8.9986253 A 1.9832985,1.9996945 0 0 1 42.442589,10.99832 1.9832985,1.9996945 0 0 1 40.45929,8.9986253 1.9832985,1.9996945 0 0 1 42.442589,6.9989308 1.9832985,1.9996945 0 0 1 44.425887,8.9986253 Z M 59.300626,0.9998473 A 0.99164927,0.99984725 0 0 1 58.308977,1.9996945 0.99164927,0.99984725 0 0 1 57.317328,0.9998473 0.99164927,0.99984725 0 0 1 58.308977,0 0.99164927,0.99984725 0 0 1 59.300626,0.9998473 Z M 88.058455,13.997862 a 0.99164927,0.99984725 0 0 1 -0.991649,0.999847 0.99164927,0.99984725 0 0 1 -0.991649,-0.999847 0.99164927,0.99984725 0 0 1 0.991649,-0.999848 0.99164927,0.99984725 0 0 1 0.991649,0.999848 z m 5.949896,38.994042 a 0.99164927,0.99984725 0 0 1 -0.99165,0.999848 0.99164927,0.99984725 0 0 1 -0.991649,-0.999848 0.99164927,0.99984725 0 0 1 0.991649,-0.999847 0.99164927,0.99984725 0 0 1 0.99165,0.999847 z M 62.275574,12.498091 A 1.4874739,1.4997709 0 0 1 60.7881,13.997862 1.4874739,1.4997709 0 0 1 59.300626,12.498091 1.4874739,1.4997709 0 0 1 60.7881,10.99832 a 1.4874739,1.4997709 0 0 1 1.487474,1.499771 z m 13.88309,7.498854 a 0.99164927,0.99984725 0 0 1 -0.991649,0.999847 0.99164927,0.99984725 0 0 1 -0.99165,-0.999847 0.99164927,0.99984725 0 0 1 0.99165,-0.999847 0.99164927,0.99984725 0 0 1 0.991649,0.999847 z m -48.590814,0 a 0.99164927,0.99984725 0 0 1 -0.99165,0.999847 0.99164927,0.99984725 0 0 1 -0.991649,-0.999847 0.99164927,0.99984725 0 0 1 0.991649,-0.999847 0.99164927,0.99984725 0 0 1 0.99165,0.999847 z M 14.676409,17.997251 a 0.99164927,0.99984725 0 0 1 -0.991649,0.999847 0.99164927,0.99984725 0 0 1 -0.991649,-0.999847 0.99164927,0.99984725 0 0 1 0.991649,-0.999848 0.99164927,0.99984725 0 0 1 0.991649,0.999848 z"
-                      />
-                      <path
-                        class="form-circle"
-                        d="m 48.557556,21.012217 c 21.915449,0 39.66597,17.897265 39.66597,39.993889 C 88.223526,83.10273 70.473005,101 48.557556,101 26.642107,101 8.8915849,83.10273 8.8915849,61.006106 c 0,-22.096624 17.7505221,-39.993889 39.6659711,-39.993889 z"
-                      />
-                      <path
-                        class="form-check"
-                        d="m 31.005365,64.305604 c -1.18998,-1.499771 -3.371608,-1.89971 -4.859082,-0.699893 -1.487474,1.199817 -1.884133,3.39948 -0.694154,4.899251 l 7.734864,10.398412 c 1.289144,1.69974 3.768267,1.89971 5.255741,0.399939 L 70.473006,47.008246 c 1.388309,-1.399786 1.388309,-3.59945 0,-4.999236 -1.388309,-1.399786 -3.569938,-1.399786 -4.958247,0 L 36.360271,71.504504 Z"
-                      />
-                    </svg>
-                  </div>
-                  <span class="mail-send-message"
-                    >Спасибо за Ваше сообщение. Оно успешно отправлено.</span
-                  >
-                </div>
-                <div class="wpcf7-response-output wpcf7-display-none"></div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
     </main>
-    <!-- <script type="text/javascript">
-      try {
-        var sbmt = document.getElementById("submit"),
-          npt = document.createElement("input"),
-          d = new Date(),
-          __ksinit = function () {
-            sbmt.parentNode.insertBefore(npt, sbmt);
-          };
-        npt.value =
-          d.getUTCDate() + "" + (d.getUTCMonth() + 1) + "comments-title";
-        npt.name = "ksbn_code";
-        npt.type = "hidden";
-        sbmt.onmousedown = __ksinit;
-        sbmt.onkeypress = __ksinit;
-      } catch (e) {}
-    </script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         let lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
@@ -3160,216 +2594,18 @@
         document.addEventListener("scroll", lazyLoad);
         window.addEventListener("resize", lazyLoad);
         window.addEventListener("orientationchange", lazyLoad);
-      }); -->
+      });
     </script>
     <section class="after-main">
-      <section>
-        <div class="container">
-          <div class="row 1more-article-slider 1animate-block">
-            <div class="col-lg-12 col-sm-12 col-xs-12 seo-text__bottom">
-              <div class="article-rating">
-                <h3 class="article-rating__title">
-                  Оцените, насколько мы были полезны
-                </h3>
-                <!--Yasr Visitor Votes Shortcode-->
-                <div id="yasr_visitor_votes_248" class="yasr-visitor-votes">
-                  <div
-                    id="yasr-visitor-votes-rater-02b0e34e96e5a"
-                    class="yasr-rater-stars-visitor-votes"
-                    data-rater-postid="248"
-                    data-rating="4.5"
-                    data-rater-starsize="24"
-                    data-rater-readonly="false"
-                    data-rater-nonce="52432bfe72"
-                    data-issingular="true"
-                  ></div>
-                  <span
-                    id="yasr-visitor-votes-container-after-stars-02b0e34e96e5a"
-                    class="yasr-visitor-votes-after-stars-class"
-                    ><span
-                      class="yasr-total-average-container"
-                      id="yasr-total-average-text_248"
-                    >
-                      [Всего голосов: 269 &nbsp; &nbsp;Средний: 4.5/5]
-                    </span></span
-                  >
-                </div>
-                <!--End Yasr Visitor Votes Shortcode-->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
     <footer class="footer">
       <div class="footer-widget-wrap">
         <div class="container">
           <div class="widget-row">
-            <div class="text-widget-wrap col-sm-12">
-              <div class="footer-logo-wrap">
-                <div
-                  style="
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                  "
-                  class="footer-logo"
-                >
-                  <a href="index.html">
-                    <svg viewBox="0 0 39 40">
-                      <use xlink:href="#main-logo"></use>
-                    </svg>
-                  </a>
-                </div>
-                <span>Уберём</span>
-              </div>
-              <div class="social-widget-wrap">
-                <ul>
-                  <li>
-                    <a
-                      class="footer-it"
-                      href="https://instagram.com/uberem.com.ua"
-                      rel="nofollow"
-                      target="_blank"
-                      title="Instagram"
-                      ><svg width="14" height="14" viewBox="0 0 14 14">
-                        <use xlink:href="#instagram-icon"></use></svg
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      class="footer-fb"
-                      href="https://www.facebook.com/uberem.com.ua/"
-                      rel="nofollow"
-                      target="_blank"
-                      title="Facebook"
-                      ><svg width="7" height="12" viewBox="0 0 7 12">
-                        <use xlink:href="#facebook-icon"></use></svg
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      class="footer-tl"
-                      href="https://www.youtube.com/channel/UCd2KdFLqEAqRIsPxWzYw11g"
-                      rel="nofollow"
-                      target="_blank"
-                      title="YouTube"
-                      ><svg width="16" height="11" viewBox="0 0 16 11">
-                        <use xlink:href="#youtube-icon"></use></svg
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div
-              class="menu-widget-wrap col-sm-6 col-md-4 col-lg-3 col-lg-offset-3"
-            >
-              <div class="textwidget">
-                <h3>О нас</h3>
-                <ul>
-                  <li>
-                    <a
-                      title="Цены"
-                      href="ceny-na-uborku-kvartiry-v-kieve/index.html"
-                      >Цены</a
-                    >
-                  </li>
-                  <li>
-                    <a title="Услуги" href="en/nashi-uslugi/index.html"
-                      >Услуги</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      title="Отзывы"
-                      href="en/otzyvy-o-nashej-rabote/index.html"
-                      >Отзывы</a
-                    >
-                  </li>
-                  <li>
-                    <a title="Вопросы" href="en/voprosy-i-otvety/index.html"
-                      >Вопросы</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      title="Работа"
-                      href="https://uberem.tilda.ws/work"
-                      target="_blank"
-                      rel="noopener norefer noreferrer"
-                      >Работа</a
-                    >
-                  </li>
-                  <li>
-                    <a title="Контакты" href="contacts/index.html">Контакты</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div
-              class="menu-widget-wrap col-sm-6 col-md-4 col-lg-4 middle-widget"
-            >
-              <div class="textwidget">
-                <h3>Наши услуги</h3>
-                <ul>
-                  <li>
-                    <a title="Базовая уборка" href="uslugi/basic/index.html"
-                      >Базовая уборка</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      title="Поддерживающая"
-                      href="uslugi/sustaining/index.html"
-                      >Поддерживающая</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      title="Генеральная"
-                      href="dnepr/generalnaja-uborka/index.html"
-                      >Генеральная</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      title="После ремонта"
-                      href="dnepr/uborka-posle-remonta/index.html"
-                      >После ремонта</a
-                    >
-                  </li>
-                  <li>
-                    <a title="Мойка окон" href="uslugi/moyka-okon/index.html"
-                      >Мойка окон</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      title="Химчистка на дому"
-                      href="vyezdnaya-himchistka/index.html"
-                      >Химчистка на дому</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="call-widget-wrap col-sm-12 col-md-4 col-lg-2">
+            <div class="call-widget-wrap">
               <div class="call-widget-content">
-                <div>
-                  <h3>Закажите звонок:</h3>
-                  <div>
-                    <button
-                      type="button"
-                      data-modal="modal-auto"
-                      class="modal-trigger blue-btn"
-                    >
-                      Заказать звонок
-                    </button>
-                  </div>
-                </div>
                 <div class="textwidget">
                   <ul>
-                    <li>
+                    <!-- <li>
                       <span style="font-weight: 400"
                         >Открыто: 24 часа в сутки</span
                       >
@@ -3383,12 +2619,13 @@
                           >Адрес: ул. Дегтяревская 49, Киев, 03113</span
                         ></a
                       >
-                    </li>
+                    </li> -->
                     <li>
+                      <h3>Закажите звонок:</h3>
                       <span style="font-weight: 400"
                         >Телефон:<br />
                         <a class="icon-lifecell" href="tel:+380674016977"
-                          >067 401 69 77</a
+                          >+7917 896 83 50</a
                         ></span
                       >
                     </li>
@@ -3398,10 +2635,10 @@
                         title="Email"
                         href="mailto:hello@uberem.com.ua"
                         rel="nofollow"
-                        >hello@uberem.com.ua</a
+                        >gardenservicerf@gmail.com</a
                       >
                     </li>
-                    <li class="visible-xs-block">
+                    <!-- <li class="visible-xs-block">
                       <a
                         class="icon-legal"
                         href="doc.1.html"
@@ -3409,15 +2646,15 @@
                         rel="noopener, nofollow noopener noreferrer"
                         >Юридические документы</a
                       >
-                    </li>
-                    <li class="visible-xs-block">
+                    </li> -->
+                    <!-- <li class="visible-xs-block">
                       <a class="icon-contacts" href="contacts/index.html"
                         >Контакты</a
                       >
-                    </li>
+                    </li> -->
                   </ul>
                 </div>
-                <div class="socila-btn-wrap">
+                <!-- <div class="socila-btn-wrap">
                   <a
                     href="https://www.facebook.com/uberem.com.ua"
                     class="socila-btn fb-btn"
@@ -3445,18 +2682,13 @@
                     </svg>
                     Tm</a
                   >
-                </div>
+                </div> -->
               </div>
             </div>
-            <script
-              src="https://www.uberem.com.ua/wp-content/themes/uberem/js/thank.190619.js.pagespeed.jm.vf7OdVpiPf.js"
-              type="text/javascript"
-              async
-            ></script>
           </div>
         </div>
       </div>
-      <div class="copy-right-wrap">
+      <!-- <div class="copy-right-wrap">
         <div class="container">
           <div class="row copy-right-row">
             <div class="col-lg-3 img-widget-wrap">
@@ -3536,7 +2768,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </footer>
     <!-- <div class="modal-overlay" id="modal-auto">
       <div class="modal">
