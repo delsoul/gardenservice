@@ -3255,7 +3255,7 @@ select {
 .main-content {
 	position: absolute;
 	top: 50%;
-	left: -200px;
+	left: -85px;
 	transform: translateY(-50%)
 }
 
@@ -4049,7 +4049,7 @@ big:before {
 
 .marker-toggle {
 	border-radius: 50%;
-	background-color: #009916;
+	background-color: #fff;
 	position: relative;
 	box-shadow: 0 0 10px rgba(0, 86, 214, .3), inset 0 1px 0 hsla(0, 0%, 100%, .3);
 	text-indent: -9999px;
@@ -4066,7 +4066,7 @@ big:before {
 	bottom: auto;
 	right: auto;
 	transform: translate(-50%, -50%);
-	background-color: #fff;
+	background-color: #009916;
 	transition: transform .3s
 }
 
